@@ -431,4 +431,78 @@ section {
 }
 .skills__column:nth-child(2) .skills__content .progress:nth-child(4) .bar span {
   width: 25%;
+}
+
+.contact {
+  min-height: auto;
+  padding-bottom: 7rem;
+}
+.contact form {
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact form .input__box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .btn {
+  cursor: pointer;
+}
+.contact form .focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  border-radius: 0.6rem;
+  z-index: -1;
+}
+.contact .input__field {
+  position: relative;
+  width: 49%;
+  margin: 0.8rem 0;
+}
+.contact .input__field input {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #ededed;
+  background: transparent;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
+  outline: none;
+}
+.contact .input__field input::-moz-placeholder {
+  color: #ededed;
+}
+.contact .input__field input::placeholder {
+  color: #ededed;
+}
+.contact .textarea__field {
+  position: relative;
+  margin: 0.8rem 0 2.7rem;
+  display: flex;
+}
+.contact .textarea__field textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #ededed;
+  background: transparent;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
+  outline: none;
+  resize: none;
+}
+.contact .textarea__field textarea::-moz-placeholder {
+  color: #ededed;
+}
+.contact .textarea__field textarea::placeholder {
+  color: #ededed;
 }/*# sourceMappingURL=main.css.map */

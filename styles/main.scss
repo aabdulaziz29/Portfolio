@@ -435,3 +435,74 @@ section {
     width: 25%;
   }
 }
+
+.contact {
+  min-height: auto;
+  padding-bottom: 7rem;
+  form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    .input__box {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .btn {
+      cursor: pointer;
+    }
+    .focus {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: red;
+      border-radius: 0.6rem;
+      z-index: -1;
+      &:focus{
+        
+      }
+    }
+  }
+  .input__field {
+    position: relative;
+    width: 49%;
+    margin: 0.8rem 0;
+    input {
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem;
+      font-size: 1.6rem;
+      color: $--text-color;
+      background: transparent;
+      border-radius: 0.6rem;
+      border: 0.2rem solid $--main-color;
+      outline: none;
+      &::placeholder {
+        color: $--text-color;
+      }
+    }
+  }
+  .textarea__field {
+    position: relative;
+    margin: 0.8rem 0 2.7rem;
+    display: flex;
+    textarea {
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem;
+      font-size: 1.6rem;
+      color: $--text-color;
+      background: transparent;
+      border-radius: 0.6rem;
+      border: 0.2rem solid $--main-color;
+      outline: none;
+      resize: none;
+      &::placeholder {
+        color: $--text-color;
+      }
+    }
+  }
+}
